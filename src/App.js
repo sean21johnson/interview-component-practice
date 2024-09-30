@@ -1,11 +1,14 @@
 import './App.css';
-import CheckoutForm from './components/CheckoutForm';
+// import CheckoutForm from './components/CheckoutForm';
+// import DynamicItems from './components/DynamicItems';
+import CheckoutFormTwo from './components/CheckoutFormTwo'
 
 function App() {
   return (
     <div className="App">
-      <h1>Checkout Form</h1>
-      <CheckoutForm />
+      {/* <CheckoutForm /> */}
+      {/* <DynamicItems /> */}
+      <CheckoutFormTwo />
     </div>
   );
 }
