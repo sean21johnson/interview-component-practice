@@ -20,10 +20,10 @@ input {
 
 button {
   padding: 10px 20px;
-  background-color: grey;
-  border: none;
+  background-color: white;
+  border: 1px solid black;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
 button:hover {
