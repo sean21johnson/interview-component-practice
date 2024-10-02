@@ -2,9 +2,10 @@ import "./App.css";
 // import CheckoutForm from './components/CheckoutForm';
 // import DynamicItems from './components/DynamicItems';
 // import CheckoutFormTwo from './components/CheckoutFormTwo'
-import Dropdown from "./components/Dropdown";
+// import Dropdown from "./components/Dropdown";
+import CheckoutFormThree from "./components/CheckoutFormThree";
 
-const options = ["bird", "frog", "goat", "alligator"];
+// const options = ["bird", "frog", "goat", "alligator"];
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <CheckoutForm /> */}
       {/* <DynamicItems /> */}
       {/* <CheckoutFormTwo /> */}
-      <Dropdown placeholder="Select an option" options={options} />
+      {/* <Dropdown placeholder="Select an option" options={options} /> */}
+      <CheckoutFormThree />
     </div>
   );
 }
